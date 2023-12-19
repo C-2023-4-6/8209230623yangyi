@@ -3,14 +3,14 @@ using namespace std;
 class Student
 {
 private:
-	int num;
-	int grade;
+	long long num;
+	double grade;
 public:
-	int getnum()             //访问num
+	long long getnum()             //访问num
 	{
 		return num;
 	}
-	int getgrade()            //访问grade
+	double getgrade()            //访问grade
 	{
 		return grade;
 	} 
