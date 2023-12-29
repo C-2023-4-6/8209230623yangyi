@@ -8,12 +8,12 @@ int mon(int day)
 	}
 	else
 	{
-		return mon(day) = (mon(day - 1) + 1) * 2;
+		 (mon(day - 1) + 1) * 2;
 	}
 }
 int main()
 {
 	int day=10;
-	cout << "���ӵ�һ��ժ��Ϊ��" << mon(day);
+	cout << "ºï×ÓµÚÒ»ÌìÕªÌÒÎª£»" << mon(day);
 	return 0;
 }
