@@ -8,7 +8,7 @@ int mon(int day)
 	}
 	else
 	{
-		 (mon(day - 1) + 1) * 2;
+		return (mon(day - 1) + 1) * 2;
 	}
 }
 int main()
