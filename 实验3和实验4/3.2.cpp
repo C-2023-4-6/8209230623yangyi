@@ -2,10 +2,8 @@
 using namespace std;
 bool is_prime(int num)
 {
-	int i;
-	for (i = num - 1; i > 1; i--)              //ÅĞ¶ÏÊÇ·ñÎªËØÊı
+	for (int i = num /2; i > 1; i--)              //åˆ¤æ–­æ˜¯å¦ä¸ºç´ æ•°
 	{
-		double t = num / i;
 		if (num%i==0)
 		{
 			return 0;
@@ -26,7 +24,7 @@ int main()
 		 }
 		i++;
 	}
-	for (int k = 0; k < 200; k++)          //Ã¿ĞĞ10¸öÊä³ö
+	for (int k = 0; k < 200; k++)          //æ¯è¡Œ10ä¸ªè¾“å‡º
 	{
 		cout << a[k] << "\t";
 		if ((k + 1) % 10 == 0)           
