@@ -7,21 +7,21 @@ int min(int x, int y)
 int main()
 {
 	int a, b,c,i;
-	cout << "ÈÎÒâÊäÈëÁ½¸öÕıÕûÊı£º";
+	cout << "ä»»æ„è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°ï¼š";
 	cin >> a >> b;
 	if (a < 0 || b < 0)
 	{
-		cout << "´íÎó" << endl;
+		cout << "é”™è¯¯" << endl;
 	}
 	else
 	{
-		for (i = min(a, b); ; --i)
+		for (i = min(a, b);i>0; --i)
 		{
 			if (a % i == 0 && b % i == 0)
 			{
-				cout << "¶şÕßµÄ×î´ó¹«Ô¼ÊıÎª:" << i << endl;
+				cout << "äºŒè€…çš„æœ€å¤§å…¬çº¦æ•°ä¸º:" << i << endl;
 				c = a / i * b;
-				cout << "¶şÕßµÄ×îĞ¡¹«±¶ÊıÎª£º" << c << endl;
+				cout << "äºŒè€…çš„æœ€å°å…¬å€æ•°ä¸ºï¼š" << c << endl;
 				break;
 			}
 		}
